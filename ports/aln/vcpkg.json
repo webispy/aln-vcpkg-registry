@@ -1,0 +1,19 @@
+{
+  "name": "aln",
+  "version": "0.1.0",
+  "description": "Amazing Lucky Numbers",
+  "homepage": "https://github.com/webispy/aln",
+  "license": "Apache-2.0",
+  "dependencies": [
+    "glib",
+    "pkgconf",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
